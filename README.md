@@ -1,4 +1,4 @@
-# API d'Authentification Qualiextra
+# API d'Authentification
 
 API REST pour la gestion des utilisateurs, l'authentification (inscription, connexion, vérification email, réinitialisation de mot de passe) construite avec Node.js, Express, Sequelize et PostgreSQL.
 
