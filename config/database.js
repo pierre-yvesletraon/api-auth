@@ -10,7 +10,7 @@ import { Sequelize } from "sequelize";
  * @type {import('sequelize').Sequelize}
  */
 export const sequelize = new Sequelize({
-  dialect: process.env.DATABASE_DIALECT,
+  dialect: 'postgres',
   host: process.env.DATABASE_HOST,
   port: process.env.DATABASE_PORT,
   database: process.env.DATABASE_NAME,
