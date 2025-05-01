@@ -65,5 +65,5 @@ await sequelize.sync();
 // Serveur HTTP
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
-  console.log(`Serveur lancé sur http://localhost:3000`);
+  console.log(`✅ Serveur démarré sur le port ${port}`);
 });
