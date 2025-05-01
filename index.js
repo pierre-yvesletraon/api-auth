@@ -17,6 +17,9 @@ dotenv.config();
 // Express app
 const app = express();
 
+// Configuration du proxy pour Railway
+app.set("trust proxy", 1);
+
 // Sécurité des en-têtes HTTP
 app.use(helmet());
 
