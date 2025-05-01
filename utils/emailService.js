@@ -37,9 +37,9 @@ export async function sendVerificationEmail(email, token) {
   await transporter.sendMail({
     from: process.env.SMTP_FROM,
     to: email,
-    subject: "Vérifiez votre compte Qualiextra",
+    subject: "Vérifiez votre compte",
     html: `
-      <h1>Bienvenue sur Qualiextra</h1>
+      <h1>Bienvenue!</h1>
       <p>Veuillez cliquer sur le lien ci-dessous pour vérifier votre compte :</p>
       <a href="${verificationUrl}">Vérifier mon compte</a>
     `,
